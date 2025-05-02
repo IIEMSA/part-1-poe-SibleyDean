@@ -10,7 +10,7 @@ namespace WebApplication1
             var builder = WebApplication.CreateBuilder(args);
             // Add this to services configuration
             builder.Services.AddDbContext<ApplicationDbContext>(options =>
-                options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();

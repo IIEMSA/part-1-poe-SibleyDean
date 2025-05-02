@@ -12,5 +12,6 @@
     <WebStackScaffolding_DbContextTypeFullName>eventEasefour.Data.ApplicationDbContext</WebStackScaffolding_DbContextTypeFullName>
     <WebStackScaffolding_IsAsyncSelected>False</WebStackScaffolding_IsAsyncSelected>
     <WebStackScaffolding_IsViewGenerationSelected>True</WebStackScaffolding_IsViewGenerationSelected>
+    <NameOfLastUsedPublishProfile>C:\Users\lab_services_student\source\repos\CLDV_Assign\CLDV_Assign\WebApplication1\Properties\PublishProfiles\CLDVgroupONE - Web Deploy.pubxml</NameOfLastUsedPublishProfile>
   </PropertyGroup>
 </Project>

@@ -12,17 +12,17 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"667"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=\u0022"},{"Name":"Last-Modified","Value":"Sat, 05 Apr 2025 08:32:06 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/eventEasefour/eventEasefour.6u2ed40xyn.bundle.scp.css">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\eventEasefour.6u2ed40xyn.bundle.scp.css'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"6u2ed40xyn"},{"Name":"integrity","Value":"sha256-Iv0p9TjHTQP\u002B\u002B0kgPgpP9QG\u002BuzZkBCCImSinBtahHtY="},{"Name":"label","Value":"_content/eventEasefour/eventEasefour.bundle.scp.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1131"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022Iv0p9TjHTQP\u002B\u002B0kgPgpP9QG\u002BuzZkBCCImSinBtahHtY=\u0022"},{"Name":"Last-Modified","Value":"Sat, 05 Apr 2025 08:48:10 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/eventEasefour/eventEasefour.bundle.scp.css">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\eventEasefour.6u2ed40xyn.bundle.scp.css'))</AssetFile>
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\eventEasefour.wdig21hpj1.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Iv0p9TjHTQP\u002B\u002B0kgPgpP9QG\u002BuzZkBCCImSinBtahHtY="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1131"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022Iv0p9TjHTQP\u002B\u002B0kgPgpP9QG\u002BuzZkBCCImSinBtahHtY=\u0022"},{"Name":"Last-Modified","Value":"Sat, 05 Apr 2025 08:48:10 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-FPd0RMk\u002B6CoTclfDn5nlV3mc\u002Bfgb09tkT5YlPuXJ6lc="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1131"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022FPd0RMk\u002B6CoTclfDn5nlV3mc\u002Bfgb09tkT5YlPuXJ6lc=\u0022"},{"Name":"Last-Modified","Value":"Wed, 30 Apr 2025 11:45:54 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/eventEasefour/eventEasefour.wdig21hpj1.bundle.scp.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\eventEasefour.wdig21hpj1.bundle.scp.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"wdig21hpj1"},{"Name":"integrity","Value":"sha256-FPd0RMk\u002B6CoTclfDn5nlV3mc\u002Bfgb09tkT5YlPuXJ6lc="},{"Name":"label","Value":"_content/eventEasefour/eventEasefour.bundle.scp.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1131"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022FPd0RMk\u002B6CoTclfDn5nlV3mc\u002Bfgb09tkT5YlPuXJ6lc=\u0022"},{"Name":"Last-Modified","Value":"Wed, 30 Apr 2025 11:45:54 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/eventEasefour/favicon.61n19gt1b8.ico">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\favicon.ico'))</AssetFile>

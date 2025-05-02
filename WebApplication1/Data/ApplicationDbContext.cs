@@ -1,15 +1,12 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using eventEasefour.Models;
-using static eventEasefour.Models.Bookings;
-
-
 
 namespace eventEasefour.Data
 {
-    public class ApplicationDbContext: DbContext
+    public class ApplicationDbContext : DbContext
     {
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
-        : base(options)
+            : base(options)
         {
         }
 
@@ -19,9 +16,15 @@ namespace eventEasefour.Data
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            base.OnModelCreating(modelBuilder);
+
             modelBuilder.Entity<Bookings>()
                 .HasIndex(b => new { b.EventId, b.VenueId })
                 .IsUnique();
+
+            modelBuilder.Entity<Venue>().ToTable("Venue");
+            modelBuilder.Entity<Event>().ToTable("Event");
+            modelBuilder.Entity<Bookings>().ToTable("Booking");
         }
     }
 }
